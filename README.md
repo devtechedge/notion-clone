@@ -240,6 +240,26 @@ overlay and difference generation, making section-level drift easier to find.
 - `npm run build` performs compilation, type checking, and static generation.
 - Visual fidelity is prioritized before secondary Lighthouse tuning.
 
+## FAQ
+
+### Why is the homepage served from `reference.html`?
+
+The supplied saved DOM is the parity contract. Serving it directly preserves
+the original structure, inline artwork, and browser behavior under review.
+
+### Can the artwork be replaced with new components?
+
+No. Existing source-backed artwork is intentionally preserved; changes should
+be validated against the committed reference evidence first.
+
+## Known limitations
+
+- Lighthouse JSON generation on the current Windows environment is blocked by
+  Chrome Launcher temporary-profile cleanup (`EPERM`); the reproducible command
+  is documented under `docs/lighthouse/`.
+- The visual baseline is intentionally desktop-first, with responsive smoke
+  coverage in Playwright.
+
 ## Roadmap
 
 - [x] Preserve the supplied HTML and inline artwork.
@@ -247,8 +267,8 @@ overlay and difference generation, making section-level drift easier to find.
 - [x] Add Chromium visual QA captures and comparison artifacts.
 - [x] Add repository documentation and contribution policy.
 - [x] Add GitHub Actions build validation.
-- [ ] Add Playwright-based screenshot regression automation.
-- [ ] Run visual regression checks on every pull request.
+- [x] Add Playwright-based screenshot regression automation.
+- [x] Run visual regression checks on every pull request.
 - [ ] Add Lighthouse reporting to CI.
 - [ ] Add a responsive viewport comparison matrix.
 
