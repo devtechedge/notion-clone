@@ -1,12 +1,5 @@
-import { loadReferenceMarkup } from "../lib/reference-loader";
+import { ReferencePage } from "../components/ReferencePage";
 
 export default function HomePage() {
-  const { head, body } = loadReferenceMarkup();
-
-  return (
-    <>
-      <div style={{ display: "contents" }} dangerouslySetInnerHTML={{ __html: head }} />
-      <div style={{ display: "contents" }} dangerouslySetInnerHTML={{ __html: body }} />
-    </>
-  );
+  return <ReferencePage />;
 }
