@@ -5,6 +5,7 @@
 | Version | Supported |
 | --- | --- |
 | `main` | Yes |
+| Older tags | No |
 
 ## Reporting a vulnerability
 
