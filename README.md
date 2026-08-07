@@ -11,6 +11,9 @@
 <p align="center">
   <a href="https://nextjs.org/"><img src="https://img.shields.io/badge/Next.js-14.2.30-000000?style=flat-square&logo=next.js&logoColor=white" alt="Next.js 14.2.30"></a>
   <a href="https://notion-clone-devtechedge1.vercel.app/"><img src="https://img.shields.io/badge/Vercel-production-000000?style=flat-square&logo=vercel&logoColor=white" alt="Vercel production deployment"></a>
+  <a href="https://github.com/devtechedge/notion-clone/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/devtechedge/notion-clone/ci.yml?style=flat-square&label=build" alt="Build status"></a>
+  <a href="./LICENSE"><img src="https://img.shields.io/badge/license-MIT-2ea44f?style=flat-square" alt="MIT license"></a>
+  <a href="https://nodejs.org/"><img src="https://img.shields.io/badge/Node.js-20%2B-339933?style=flat-square&logo=node.js&logoColor=white" alt="Node.js 20 or newer"></a>
   <a href="https://react.dev/"><img src="https://img.shields.io/badge/React-18.3.1-149eca?style=flat-square&logo=react&logoColor=white" alt="React 18.3.1"></a>
   <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-5.5.4-3178c6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript 5.5.4"></a>
   <a href="https://github.com/devtechedge/notion-clone/stargazers"><img src="https://img.shields.io/github/stars/devtechedge/notion-clone?style=flat-square" alt="GitHub stars"></a>
