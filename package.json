@@ -3,12 +3,19 @@
   "version": "1.0.0",
   "description": "A source-backed, pixel-focused recreation of the Notion homepage.",
   "private": true,
+  "author": "Devtechedge",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "https://github.com/devtechedge/notion-clone.git"
   },
   "homepage": "https://github.com/devtechedge/notion-clone",
+  "bugs": {
+    "url": "https://github.com/devtechedge/notion-clone/issues"
+  },
+  "engines": {
+    "node": ">=20"
+  },
   "keywords": [
     "nextjs",
     "react",
