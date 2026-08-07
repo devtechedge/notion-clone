@@ -75,6 +75,9 @@ so the result stays source-backed and reproducible.
 | Assets | Supplied inline WebP, SVG, font, and HTML assets |
 | Verification | Chromium screenshots and source-level image inspection |
 
+See [the architecture notes](./docs/architecture.md) for the rendering
+pipeline and image lifecycle decisions.
+
 ## Repository Structure
 
 ```text
