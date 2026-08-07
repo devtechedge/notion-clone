@@ -1,0 +1,8 @@
+node_modules/
+.next/
+out/
+coverage/
+public/assets/
+*.log
+.DS_Store
+Thumbs.db
