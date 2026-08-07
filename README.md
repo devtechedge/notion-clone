@@ -280,6 +280,10 @@ overlay and difference generation, making section-level drift easier to find.
 
 ![Pixel difference](./docs/screenshots/pixel-difference.png)
 
+The gallery intentionally keeps the reference, local render, overlay, and
+difference captures together so visual review can be repeated from a clean
+clone.
+
 ## Acknowledgements
 
 Thanks to the supplied visual reference, saved HTML capture, design tokens, and
