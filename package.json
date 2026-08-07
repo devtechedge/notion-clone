@@ -9,11 +9,19 @@
     "url": "https://github.com/devtechedge/notion-clone.git"
   },
   "homepage": "https://github.com/devtechedge/notion-clone",
-  "keywords": ["nextjs", "react", "typescript", "notion", "pixel-perfect", "visual-regression"],
+  "keywords": [
+    "nextjs",
+    "react",
+    "typescript",
+    "notion",
+    "pixel-perfect",
+    "visual-regression"
+  ],
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "test": "playwright test"
   },
   "dependencies": {
     "next": "14.2.30",
@@ -21,6 +29,7 @@
     "react-dom": "18.3.1"
   },
   "devDependencies": {
+    "@playwright/test": "^1.62.1",
     "@types/node": "20.14.12",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
