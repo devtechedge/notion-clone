@@ -21,7 +21,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "test": "playwright test"
+    "test": "playwright test",
+    "format:check": "prettier --check .prettierrc.json package.json playwright.config.ts tests/**/*.ts"
   },
   "dependencies": {
     "next": "14.2.30",
@@ -33,6 +34,7 @@
     "@types/node": "20.14.12",
     "@types/react": "18.3.3",
     "@types/react-dom": "18.3.0",
+    "prettier": "^3.9.6",
     "typescript": "5.5.4"
   }
 }
