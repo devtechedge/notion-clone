@@ -1,7 +1,7 @@
 {
   "name": "notion-home-recreation",
   "version": "1.0.0",
-  "description": "A source-backed, pixel-focused recreation of the Notion homepage.",
+  "description": "Pixel-perfect Next.js App Router recreation with source-backed rendering, deterministic visual QA, and responsive frontend fidelity for frontend engineering.",
   "private": true,
   "author": "Devtechedge",
   "license": "MIT",
@@ -9,7 +9,7 @@
     "type": "git",
     "url": "https://github.com/devtechedge/notion-clone.git"
   },
-  "homepage": "https://github.com/devtechedge/notion-clone",
+  "homepage": "https://notion-clone-devtechedge1.vercel.app/",
   "bugs": {
     "url": "https://github.com/devtechedge/notion-clone/issues"
   },
@@ -20,9 +20,23 @@
     "nextjs",
     "react",
     "typescript",
-    "notion",
+    "frontend-engineering",
+    "frontend-architecture",
     "pixel-perfect",
-    "visual-regression"
+    "visual-regression",
+    "playwright",
+    "lighthouse",
+    "web-performance",
+    "app-router",
+    "responsive-design",
+    "html",
+    "css",
+    "animation",
+    "ui-engineering",
+    "frontend-testing",
+    "rendering",
+    "component-architecture",
+    "github-actions"
   ],
   "scripts": {
     "dev": "next dev",
