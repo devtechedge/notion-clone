@@ -27,6 +27,13 @@
   <img src="./docs/screenshots/desktop-reference.png" alt="Notion homepage reference preview" width="920">
 </p>
 
+<p align="center">
+  <a href="#overview">Overview</a> ·
+  <a href="#getting-started">Getting started</a> ·
+  <a href="#visual-qa">Visual QA</a> ·
+  <a href="#roadmap">Roadmap</a>
+</p>
+
 ## Overview
 
 This repository is a high-fidelity recreation of the supplied Notion homepage
