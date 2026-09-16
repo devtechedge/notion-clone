@@ -15,11 +15,13 @@ export const metadata: Metadata = {
     description: PAGE_DESCRIPTION,
     url: SITE_URL,
     type: "website",
+    images: [{ url: 'https://notion-clone-devtechedge1.vercel.app/og.png', width: 1200, height: 630, alt: 'The AI workspace that works for you. | Notion' }],
   },
   twitter: {
-    card: "summary",
+    card: 'summary_large_image',
     title: PAGE_TITLE,
     description: PAGE_DESCRIPTION,
+    images: ['https://notion-clone-devtechedge1.vercel.app/og.png'],
   }
 };
 
