@@ -2,9 +2,25 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeToggle } from "../components/ThemeToggle";
 
+const PAGE_TITLE = "The AI workspace that works for you. | Notion";
+const PAGE_DESCRIPTION = "Where teams and agents build together.";
+const SITE_URL = "https://notion-clone-devtechedge1.vercel.app";
+
 export const metadata: Metadata = {
-  title: "The AI workspace that works for you. | Notion",
-  description: "Where teams and agents build together."
+  title: PAGE_TITLE,
+  description: PAGE_DESCRIPTION,
+  // Shared links (LinkedIn, Slack, email) render a bare URL without these.
+  openGraph: {
+    title: PAGE_TITLE,
+    description: PAGE_DESCRIPTION,
+    url: SITE_URL,
+    type: "website",
+  },
+  twitter: {
+    card: "summary",
+    title: PAGE_TITLE,
+    description: PAGE_DESCRIPTION,
+  }
 };
 
 const THEME_BOOT = `(function(){try{var k="notion-clone-theme";var t=localStorage.getItem(k);if(t!=="light"&&t!=="dark")t="light";var r=document.documentElement;r.setAttribute("data-theme",t);r.style.colorScheme=t;if(t==="dark")r.classList.add("dark");else r.classList.remove("dark");}catch(e){document.documentElement.setAttribute("data-theme","light");}})();`;
