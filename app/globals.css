@@ -20,12 +20,36 @@ html, body {
   min-height: 100%;
   background: var(--bg);
   color: var(--fg);
+  overflow-x: clip;
+  max-width: 100%;
 }
 
+/* Keep marquees/decorative hero marks from expanding page scrollWidth */
+#__next,
+main,
+[class*="layout_main"],
+[class*="homepage_section"],
+[class*="Marquee_marqueeContainer"],
+[class*="Marquee_logoWallMarquee"],
+[class*="Marquee_marqueeRow"] {
+  max-width: 100%;
+  overflow-x: clip;
+}
+
+[class*="Agent_agentMarkEnterWrapper"],
+[class*="Agent_agentMarkMobile"],
+[class*="Agent_agentContainer"] {
+  max-width: 100%;
+  overflow: hidden;
+}
+
+/* Sit clear of Notion CTA + hamburger (top-right chrome) */
 .app-chrome {
   position: fixed;
-  top: 12px;
-  right: 12px;
+  top: auto;
+  right: auto;
+  bottom: 16px;
+  left: 16px;
   z-index: 9999;
 }
 
